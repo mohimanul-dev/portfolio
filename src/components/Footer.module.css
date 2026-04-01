@@ -1,0 +1,30 @@
+.footer {
+  border-top: 1px solid var(--glass-border);
+  padding: 28px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.copy {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 480px) {
+  .inner { justify-content: center; text-align: center; }
+}
