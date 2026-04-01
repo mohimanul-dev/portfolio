@@ -59,7 +59,7 @@ export default function Hero() {
             <div className={styles.avatarRing}>
               <div className={styles.avatarInner}>
                 <Image
-                  src="/profile.jpg"
+                  src="/portfolio/profile.jpg"
                   alt="Md. Mohimanul Islam"
                   width={114}
                   height={114}
